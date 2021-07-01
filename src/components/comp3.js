@@ -12,7 +12,7 @@ export default function Comp3() {
             hello form comp3
 
             <input value={context.state.comp3sInput.value} onChange={(e)=>context.dispatch({type:"INSR_COMP3",value: e.target.value})}/>
-            <h1>value is : {context.state.comp3sInput.value}</h1>
+            <h1>Comp3 value is : {context.state.comp3sInput.value}</h1>
         </div>
     )
 }
